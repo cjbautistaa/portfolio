@@ -3,3 +3,8 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+assets/biringan1.png filter=lfs diff=lfs merge=lfs -text
+assets/biringan2.PNG filter=lfs diff=lfs merge=lfs -text
+assets/biringan3.PNG filter=lfs diff=lfs merge=lfs -text
+assets/biringan4.PNG filter=lfs diff=lfs merge=lfs -text
+assets/biringan5.PNG filter=lfs diff=lfs merge=lfs -text
