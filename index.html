@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csilla Joy Bautista</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Professional, highly aesthetic editorial portfolio of Csilla Joy G. Bautista. Balancing clean minimalism with creative structural design and slick interactions.">
+    <meta name="keywords"
+        content="Csilla Joy G. Bautista, Frontend Developer, UI/UX Designer, Valenzuela, PLV student, OJT Portfolio, Web Developer, Figma Design Systems, Space Design">
+    <meta name="author" content="Csilla Joy G. Bautista">
+
+    <!-- Google Fonts: Playfair Display (Serif/Headings), Montserrat (Geometric Sans/Metadata), Space Mono (Counters) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="assets/logo2.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="page-loader" id="page-loader">
+        <img src="assets/logo2.png" alt="CJ Logo" class="loader-logo">
+    </div>
+
+    <!-- STICKY HEADER -->
+    <header class="main-header" id="header-nav">
+        <div class="header-container">
+            <!-- Left Side: Crescent Star Logo (Strictly follows the picture) alongside Csilla Joy G. Bautista -->
+            <a href="#hero" class="brand-logo">
+                <img src="assets/logo2.png" alt="CJ Logo" class="brand-logo-img">
+                <span class="logo-text">Csilla Joy G. Bautista</span>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" id="mobile-toggle">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Right Side: Navigation Menu -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">â˜¾</button>
+                    </li>
+                    <!-- Pre-configured link inside assets/ folder -->
+                    <li><a href="assets/BAUTISTA_CSILLA_RESUME.pdf" class="btn btn-outline nav-cta">Download Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO / HOME SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-left-col">
+                    <!-- Name Row (Clean minimalist typography) -->
+                    <div class="hero-name-row">
+                        <h1 class="hero-title">
+                            Csilla Joy<br>
+                            <span class="italic-serif">Bautista</span>
+                        </h1>
+                    </div>
+
+                    <!-- Professional subtitle placed directly below name -->
+                    <div class="hero-meta-subtitle-under">
+                        <p class="hero-meta-title">Aspiring Frontend Developer & UI/UX Designer</p>
+                        <p class="meta-university">Pamantasan ng Lungsod ng Valenzuela</p>
+                    </div>
+                </div>
+
+                <div class="hero-right-col">
+                    <!-- Headshot frame taking up space on the right, non-circular and responsive -->
+                    <div class="hero-headshot-frame">
+                        <img src="assets/picture.png" alt="Csilla Joy Bautista" class="hero-headshot-img"
+                            onerror="this.style.display='none'; document.getElementById('hero-headshot-fallback').style.display='flex';">
+                        <div id="hero-headshot-fallback" class="hero-headshot-fallback">
+                            <span class="fallback-badge">CJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-heading">About</h2>
+                <div class="section-content">
+                    <h3 class="about-greeting">Hi, I'm CJ.</h3>
+
+                    <!-- Verbatim objective statement -->
+                    <p class="about-objective">
+                        Dedicated IT student with a foundational background in Web Development and Graphic Design,
+                        seeking an entry-level development role. Has basic experience building responsive, user-friendly
+                        websites through academic tasks and practical assignments. Familiar with using Java, HTML, CSS,
+                        JavaScript, and PHP, along with a basic understanding of full-stack tools and UI/UX design
+                        concepts. Eager to bring a strong problem-solving mindset to a team environment and continue
+                        building on these technical skills in a professional setting.
+                    </p>
+
+                    <!-- Minimalist CTA Buttons (Pointing inside assets/) -->
+                    <div class="about-ctas">
+                        <a href="#projects" class="btn btn-primary">VIEW MY PROJECTS</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline">DOWNLOAD RESUME</a>
+                        <a href="#contact" class="btn btn-text">GET IN TOUCH</a>
+                    </div>
+
+                    <!-- ELEGANT DUAL TIMELINES (Education & Seminars) -->
+                    <div class="about-timelines-grid">
+
+                        <!-- Column 1: Education -->
+                        <div class="timeline-column">
+                            <h4 class="timeline-column-title">Education</h4>
+                            <div class="timeline-vertical-path">
+
+                                <!-- Tertiary -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2023 - Present</span>
+                                        <h5 class="timeline-title">Pamantasan ng Lungsod ng Valenzuela</h5>
+                                        <p class="timeline-subtitle">Bachelor of Science in Information Technology</p>
+                                        <p class="timeline-details">Maysan Road corner Tongco Street, Maysan, Valenzuela
+                                            City</p>
+                                    </div>
+                                </div>
+
+                                <!-- Senior High School -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2021 - 2023</span>
+                                        <h5 class="timeline-title">St. Louis College Valenzuela</h5>
+                                        <p class="timeline-subtitle">Accountancy, Business and Management</p>
+                                        <p class="timeline-details">005 Maysan, Valenzuela City</p>
+                                    </div>
+                                </div>
+
+                                <!-- Junior High School -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2017 - 2021</span>
+                                        <h5 class="timeline-title">St. Louis College Valenzuela</h5>
+                                        <p class="timeline-subtitle">Junior High School</p>
+                                        <p class="timeline-details">005 Maysan, Valenzuela City</p>
+                                    </div>
+                                </div>
+
+                                <!-- Primary -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2010 - 2017</span>
+                                        <h5 class="timeline-title">St. Louis College Valenzuela</h5>
+                                        <p class="timeline-subtitle">Primary Education</p>
+                                        <p class="timeline-details">005 Maysan, Valenzuela City</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Seminars Attended -->
+                        <div class="timeline-column">
+                            <h4 class="timeline-column-title">Seminars Attended</h4>
+                            <div class="timeline-vertical-path">
+
+                                <!-- Seminar 10 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2026</span>
+                                        <h5 class="timeline-title">"Game Design: Heart of a Game"</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 9 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2025</span>
+                                        <h5 class="timeline-title">"Unlocking Security: The Power of Identity and Access
+                                            Management" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 8 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2025</span>
+                                        <h5 class="timeline-title">"Internet of Things: The Future of Smart Living and
+                                            Industry" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 7 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2025</span>
+                                        <h5 class="timeline-title">"Beyond Awareness: Enhancing Cyber Resilience with
+                                            ESET"</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 6 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2024</span>
+                                        <h5 class="timeline-title">"Securing Connections: Strategies for Cybersecurity
+                                            and Network Operations" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 5 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2024</span>
+                                        <h5 class="timeline-title">"Strategic Project Management: Aligning Projects with
+                                            Organizational Goals" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 4 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2024</span>
+                                        <h5 class="timeline-title">"Launch Your Tech Career: The High-Demand Skillset of
+                                            A Full Stack Developer" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 3 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2024</span>
+                                        <h5 class="timeline-title">"Unlocking Innovation: Navigating Digital
+                                            Transformation in Today's Landscape"</h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 2 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">April 2024</span>
+                                        <h5 class="timeline-title">"Fortifying the Future: Navigating the Landscape of
+                                            Cybersecurity Essentials" </h5>
+                                    </div>
+                                </div>
+
+                                <!-- Seminar 1 -->
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">December 2023</span>
+                                        <h5 class="timeline-title">"VITSploration: An Exploration of Different IT
+                                            Industries" </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-heading">Skills</h2>
+                <p class="skills-intro-text">
+                    Highlighting my technical competencies and design execution tools. Hover over each tool badge to
+                    view descriptions of my proficiency.
+                </p>
+
+                <div class="section-content">
+                    <div class="skills-wrapper">
+
+                        <!-- Skill Group 1: Programming & Web Dev -->
+                        <div class="skill-group">
+                            <h4 class="skill-group-title">Programming & Web Dev</h4>
+                            <div class="skills-icons-grid">
+
+                                <!-- HTML (Official HTML5 Orange Shield Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="HTML5: Semantic markup structure, visual standards, and accessibility structures.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#E34F26" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0z" />
+                                        <path fill="#EF652A" d="M12 1.97v20.03l6.473-1.843L19.897 1.97H12z" />
+                                        <path fill="#EBEBEB"
+                                            d="M12 9.537H8.531l-.232-2.625H12V4.287H5.892l.696 7.875H12V9.537zm0 5.485L9.043 14.2l-.184-2.072H6.289l.449 5.094L12 18.635V15.022z" />
+                                        <path fill="#FFFFFF"
+                                            d="M12 9.537h3.469l-.316 3.516-3.153.88v3.613l5.035-1.413.91-10.25H12v2.625z" />
+                                    </svg>
+                                    <span class="icon-label">HTML</span>
+                                </div>
+
+                                <!-- CSS (Official CSS3 Blue Shield Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="CSS3: Responsive layouts, Grid, Flexbox, custom typography variables, and slick keyframe transitions.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#1572B6" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0z" />
+                                        <path fill="#33A9DC" d="M12 1.97v20.03l6.473-1.843L19.897 1.97H12z" />
+                                        <path fill="#EBEBEB"
+                                            d="M12 9.537H5.892l-.23 2.625H12V9.537zM12 4.287H5.892l-.23 2.625H12V4.287zM6.588 12.162h5.412v2.625H9.043l-.184-2.072H6.289l.449 5.094L12 18.635v-3.613z" />
+                                        <path fill="#FFFFFF"
+                                            d="M12 9.537h3.469l-.316 3.516-3.153.88v3.613l5.035-1.413.91-10.25H12v2.625z" />
+                                    </svg>
+                                    <span class="icon-label">CSS</span>
+                                </div>
+
+                                <!-- JavaScript (Official JS Yellow Square Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="JavaScript (ES6+): Asynchronous loops, active DOM events, selectors, validation checks, and transitions.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#F7DF1E" d="M0 0h24v24H0z" />
+                                        <path fill="#323330"
+                                            d="M22.034 18.376c-.666-1.134-2.002-1.905-3.666-1.905-1.666 0-2.529.742-2.529 1.905 0 1.205 1.054 1.705 2.43 2.235 1.341.512 3.19.99 3.19 3.011 0 1.956-1.55 3.376-3.782 3.376-2.512 0-3.826-1.442-4.364-2.735l2.253-1.303c.42 1.011 1.047 1.625 2.11 1.625 1.134 0 1.579-.537 1.579-1.229 0-.85-.758-1.203-2.002-1.666-1.642-.61-3.616-1.272-3.616-3.411 0-2.22 1.879-3.23 3.616-3.23 2.052 0 3.376 1.054 3.98 2.22l-2.205 1.302zm-12.012-3.24v8.283c0 1.579-.926 2.457-2.316 2.457-1.389 0-2.203-.787-2.616-1.742L7.306 22.8c.277.537.666.85 1.229.85.583 0 .976-.324.976-.995V15.136h2.511z" />
+                                    </svg>
+                                    <span class="icon-label">JS</span>
+                                </div>
+
+                                <!-- PHP (Official PHP Purple Oval Wordmark Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="PHP: Server-side rendering, database requests, and dynamic template configuration for academic web setups.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <ellipse cx="12" cy="12" rx="10" ry="6" fill="#777BB4" />
+                                        <path fill="#FFFFFF"
+                                            d="M9.13 14.34h-.97l.73-3.8h.97l-.19.98c.24-.37.6-.57 1-.57.73 0 1.23.56 1.11 1.16l-.43 2.23H9.41l.4-2.05c.06-.3-.1-.47-.36-.47-.27 0-.5.2-.6.7l-.41 1.82zm4.67 1.47c-.16.32-.4.57-.72.74s-.7.26-1.13.26h-1.64l1.71-8.88h.97l-.35 1.84c.27-.37.66-.57 1.09-.57 1.05 0 1.68.96 1.4 2.39l-1.33 4.22zm.34-4.24c.14-.74-.18-1.2-.71-1.2-.45 0-.82.38-.96 1.11l-.37 1.93c.06 0 .12.01.18.01.5 0 .93-.3 1.09-.82l.77-1.03zm5.12 2.77h-.97l.73-3.8h.97l-.19.98c.24-.37.6-.57 1-.57.73 0 1.23.56 1.11 1.16l-.43 2.23h-.97l.4-2.05c.06-.3-.1-.47-.36-.47-.27 0-.5.2-.6.7l-.41 1.82z" />
+                                    </svg>
+                                    <span class="icon-label">PHP</span>
+                                </div>
+
+                                <!-- Java (Official Java Steaming Coffee Cup Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Java: Object-oriented programming, data models, structure mapping, and backend computational logic.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#5382A1"
+                                            d="M12.784 15.545c-2.127.387-5.011.667-7.234.667-2.378 0-3.136-.333-3.136-.933 0-.974 1.823-1.538 4.453-2.02l.608-.103C9.641 12.748 11 12.3 11 11.23c0-1.23-1.854-1.948-4.218-1.948-1.393 0-2.607.256-3.606.59l.344-1.579c1.077-.282 2.292-.41 3.518-.41 3.904 0 5.419 1.436 5.419 3.056 0 1.96-2.072 2.615-4.469 3.01l-1.077.164c-2.372.369-3.238.749-3.238 1.159 0 .44.82 1.026 3.633 1.026.83 0 1.846-.082 2.764-.246l-.285 1.488zm2.464 6.788c-.983.338-2.361.595-3.805.595-3.412 0-5.111-.83-5.111-2.482 0-2.143 2.923-3.425 7.159-4.277l.512.923c-3.189.708-6.174 1.631-6.174 2.871 0 .749 1.015 1.251 3.866 1.251 1.107 0 2.287-.195 3.164-.472l.389 1.341z" />
+                                        <path fill="#E67E22"
+                                            d="M22.8 14s-.758 1.046-2.656 1.046c-1.83 0-2.82-.943-3.923-1.989C15.035 11.918 13.684 11 11.85 11c-2.4 0-4.041 1.385-4.995 2.769l-1.128-1.077C6.9 11.026 8.954 9.5 11.85 9.5c2.374 0 4.148 1.026 5.282 2.092 1.118 1.056 2.087 1.97 3.528 1.97 1.144 0 1.856-.441 1.856-.441l.284 1.379zM12.9 6.5s-.85.923-2.122.923c-1.282 0-2.02-.923-2.923-1.846C7.03 4.708 6.015 4 4.86 4c-1.923 0-3.323 1.077-4.092 2.246l-1.077-.923C.6 3.938 2.37 2.5 4.86 2.5c2.143 0 3.42 1.026 4.38 2.02.97 1.006 1.683 1.744 2.769 1.744 1.036 0 1.667-.472 1.667-.472L12.9 6.5zm7.338 5.615s-.758 1.046-2.656 1.046c-1.83 0-2.82-.943-3.923-1.989C12.473 9.954 11.122 9.036 9.288 9.036c-2.4 0-4.041 1.385-4.995 2.769l-1.128-1.077c1.173-1.636 3.227-3.162 6.123-3.162 2.374 0 4.148 1.026 5.282 2.092 1.118 1.056 2.087 1.97 3.528 1.97 1.144 0 1.856-.441 1.856-.441l.284 1.379z" />
+                                    </svg>
+                                    <span class="icon-label">Java</span>
+                                </div>
+
+                                <!-- MySQL (Official MySQL Dolphin Mascot Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="MySQL: Relational database architecture, queries, tables, and structured entity configurations.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#00758F"
+                                            d="M12.11 2c-.66.07-1.34.25-2.02.51-.55.22-1.12.54-1.66.93-.9.65-1.74 1.5-2.3 2.58-.29.56-.5 1.16-.62 1.79-.11.59-.09 1.17.06 1.74.07.25.18.5.31.73.1.18.22.34.36.49.07.08.15.15.22.21-.11-.27-.19-.55-.23-.84-.04-.26-.04-.53-.01-.79.03-.26.1-.52.2-.77.16-.41.42-.78.75-1.07.29-.26.63-.46.99-.58.33-.11.68-.16 1.03-.15h.06c-.16.14-.3.3-.41.49-.07.13-.12.27-.16.42-.04.16-.06.32-.05.49 0 .17.03.34.09.5.09.28.26.53.49.72.24.2.53.33.84.38.3.05.62.03.92-.06.3-.09.57-.25.79-.47.16-.16.29-.35.37-.56.09-.23.13-.48.11-.73-.02-.27-.11-.53-.25-.76-.08-.13-.18-.24-.29-.34-.14-.13-.3-.23-.47-.3-.22-.1-.46-.15-.7-.14l-.06.01c.21-.08.43-.14.66-.18.25-.04.51-.05.77-.03.5.04.99.18 1.45.42.34.18.66.42.92.71.21.24.37.52.48.82.08.23.12.48.11.73-.02.24-.09.48-.21.7-.12.23-.29.43-.5.58-.16.11-.34.19-.53.24-.13.03-.27.04-.41.03c.11.06.18.14.25.23.11.15.18.33.2.52.02.19-.01.38-.08.56-.09.22-.24.41-.43.54-.15.1-.33.16-.51.18-.15.01-.3-.01-.44-.05.08.06.15.13.2.21.11.16.17.35.17.55s-.07.39-.18.55c-.14.2-.35.35-.59.42-.18.05-.37.06-.56.03-.13-.02-.26-.06-.38-.13.06.05.11.11.15.18.1.18.13.39.09.59-.03.2-.13.39-.27.53-.18.18-.42.29-.68.3-.23.01-.46-.06-.66-.18l-.29-.19c.14.05.28.07.43.05.2-.03.39-.13.52-.28.11-.13.17-.3.17-.48s-.07-.35-.19-.48c-.14-.15-.33-.24-.54-.25h-.12c.12 0 .24-.03.35-.09.17-.09.3-.24.37-.42.06-.15.07-.32.03-.48-.04-.17-.13-.31-.26-.42-.14-.11-.32-.17-.5-.16h-.12c.13.01.26-.01.38-.06.18-.08.33-.21.42-.39.08-.16.1-.34.06-.52-.04-.17-.13-.32-.27-.43-.13-.11-.3-.16-.48-.16h-.12c.14.01.28-.01.41-.06.19-.08.34-.23.43-.41.07-.16.08-.34.04-.52-.04-.17-.14-.32-.28-.42-.14-.1-.31-.15-.49-.14h-.12c.14.01.28-.01.41-.06.19-.07.35-.22.44-.4.08-.17.09-.35.05-.53-.04-.17-.14-.32-.29-.42-.14-.09-.32-.14-.49-.13-.18.01-.36.07-.51.17-.18.12-.31.3-.36.51-.04.16-.03.33.02.49.06.18.17.33.32.44.11.08.24.13.38.15-.17.01-.34-.02-.5-.09-.2-.09-.37-.24-.48-.43-.09-.16-.13-.34-.11-.53.02-.21.11-.4.25-.56.12-.13.28-.23.45-.29.12-.04.24-.05.37-.04-.15-.01-.3-.05-.44-.12-.22-.11-.39-.29-.49-.51-.08-.18-.11-.37-.08-.56.03-.22.13-.42.29-.57.14-.13.31-.21.5-.24s.37-.01.55.04c-.16-.04-.31-.11-.44-.21-.2-.15-.34-.37-.41-.61-.06-.2-.05-.41.01-.61.07-.22.21-.4.39-.53.18-.13.39-.2.61-.21h.06c.14.01.28.04.41.09-.19-.07-.35-.2-.46-.37-.12-.19-.18-.41-.17-.64s.09-.44.23-.62c.17-.22.41-.37.68-.42.22-.04.45-.02.66.05z" />
+                                        <path fill="#F29111"
+                                            d="M11.66 11.23c.32 0 .57-.08.73-.24.16-.16.22-.44.29-.83.07-.39.06-.66-.02-.81-.08-.15-.27-.22-.57-.22h-.72l-.39 2.1h.68z" />
+                                    </svg>
+                                    <span class="icon-label">MySQL</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Skill Group 2: Design Tools -->
+                        <div class="skill-group">
+                            <h4 class="skill-group-title">Design Tools</h4>
+                            <div class="skills-icons-grid">
+
+                                <!-- Figma (Official Figma outline logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Figma: Scalable design systems, components, auto-layout variants, interactive dashboards, and design tokens.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C9.24 2 7 4.24 7 7c0 2.76 2.24 5 5 5h5V7c0-2.76-2.24-5-5-5zm-5 5c0 2.76 2.24 5 5 5V2c-2.76 0-5 2.24-5 5zm5 10V12c-2.76 0-5 2.24-5 5 0 2.76 2.24 5 5 5s5-2.24 5-5zm-5 0c0-2.76 2.24-5 5-5v10c-2.76 0-5-2.24-5-5zm10-5c2.76 0 5-2.24 5-5s-2.24-5-5-5V12z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">Figma</span>
+                                </div>
+
+                                <!-- Canva (Official Canva script monogram logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Canva: Graphic materials, typography decks, branding layouts, and assets presentation design.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 2.5c-4.14 0-7.5 3.36-7.5 7.5s3.36 7.5 7.5 7.5 7.5-3.36 7.5-7.5-3.36-7.5-7.5-7.5zm.95 3.39c.64 0 1.25.13 1.8.38l-.48.96c-.4-.17-.83-.26-1.28-.26-.85 0-1.52.28-2 .83-.49.56-.73 1.34-.73 2.34s.24 1.78.73 2.34c.48.56 1.15.83 2 .83.47 0 .91-.09 1.31-.26l.48.96c-.57.25-1.19.38-1.85.38-1.23 0-2.2-.42-2.91-1.25S9.06 13 9.06 11.64c0-1.37.32-2.48.96-3.31.65-.83 1.62-1.25 2.93-1.25z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">Canva</span>
+                                </div>
+
+                                <!-- Adobe Photoshop (Official Photoshop Pure Vector Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Adobe Photoshop: Advanced asset rasterization, image treatment, compositions, and assets export.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9.66 14.5c0 .32-.07.6-.22.84-.15.24-.37.42-.65.55-.28.13-.62.19-1.01.19H6.13v-5.63h1.69c.38 0 .7.06.97.18.27.12.48.29.62.52.14.23.21.5.21.82v2.53zm0-3.32c0-.2-.04-.37-.12-.51-.08-.14-.2-.24-.36-.31-.16-.07-.36-.1-.6-.1H6.13v2.03h1.45c.23 0 .43-.03.59-.09.16-.06.28-.16.36-.29.08-.13.13-.31.13-.53v-.2zm8.21 4.9h-1.39v-.74h-.05c-.17.3-.39.52-.67.68-.28.16-.62.24-1.02.24-.52 0-.93-.14-1.24-.43-.31-.29-.46-.72-.46-1.3v-2.91h1.39v2.66c0 .28.06.49.19.62.13.13.31.2.55.2s.44-.06.59-.19c.15-.13.25-.33.3-.59v-2.7h1.39v4.66z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">Photoshop</span>
+                                </div>
+
+                                <!-- ibis Paint X (Official painting palette layout representation) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="ibis Paint X: Digital artwork rendering, UI vector illustrations, assets sketching, and visual mockups.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.12 2 11.2c0 3.06 1.88 5.75 4.67 7.03.3.14.65-.05.73-.37.24-.96.9-2.07 1.83-2.64 1-.61 2.22-.52 3.19.16.86.6 1.93.94 3.08.94 4.52 0 8.18-3.33 8.18-7.44C23.68 5.48 18.42 2 12 2zm-5.45 9c-.83 0-1.5-.67-1.5-1.5S5.72 8 6.55 8s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3.27-3c-.83 0-1.5-.67-1.5-1.5S10.82 5 11.65 5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.91 0c-.83 0-1.5-.67-1.5-1.5S15.73 5 16.56 5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm2.73 4c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">ibisPaint</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Skill Group 3: Productivity -->
+                        <div class="skill-group">
+                            <h4 class="skill-group-title">Productivity</h4>
+                            <div class="skills-icons-grid">
+
+                                <!-- Microsoft Office (Official Microsoft Office/365 Origami Hexagon Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Microsoft Office: Formal reports, database logs via Excel, spreadsheets, and academic presentations.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.17 6.48l-9-5.14a2.35 2.35 0 0 0-2.34 0l-9 5.14A2.35 2.35 0 0 0 0 8.52v10.28a2.35 2.35 0 0 0 1.17 2.04l9 5.14a2.35 2.35 0 0 0 2.34 0l9-5.14a2.35 2.35 0 0 0 1.17-2.04V8.52a2.35 2.35 0 0 0-1.17-2.04zM12 2.5a.79.79 0 0 1 .4.11l7.8 4.46v3.29L12 6.16V2.5zm-1 0v3.66L2.8 10.36V7.07l7.8-4.46a.79.79 0 0 1 .4-.11zm-9.2 6L11 14.16v6.8l-7.8-4.46a.79.79 0 0 1-.4-.7v-7.3zm19.4 7.3a.79.79 0 0 1-.4.7l-7.8 4.46v-6.8l9.2-5.66v7.3z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">MS Office</span>
+                                </div>
+
+                                <!-- Google Workspace (Official Google Workspace Collaborative Isometric Cube Logo) -->
+                                <div class="tech-icon-wrapper"
+                                    data-tooltip="Google Workspace: Drive organization, spreadsheets collaboration, form data aggregation, and documentation.">
+                                    <svg viewBox="0 0 24 24" class="tech-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.01 2.01c-.13 0-.26.03-.38.09L2.81 7.21c-.24.14-.39.4-.39.68v10.24c0 .28.15.54.39.68l8.82 5.11c.24.14.54.14.78 0l8.82-5.11c.24-.14.39-.4.39-.68V7.89c0-.28-.15-.54-.39-.68l-8.82-5.11c-.12-.06-.25-.09-.38-.09zm.01 2.28l6.82 3.96-6.82 3.95-6.82-3.95 6.82-3.96zm-7.82 6.18l6.82 3.95V22.3l-6.82-3.95v-7.86zm8.82 3.95l6.82-3.95v7.86l-6.82 3.95v-7.86z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="icon-label">Workspace</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION (Interactive Horizontal Slider Layout + Laptop Mockup Casing) -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-heading">Projects</h2>
+                <p class="projects-intro-subtitle">
+                    This section highlights general projects I've built during my academic journey. I aim to showcase my
+                    works as much as possible, including systems, web apps, and all IT-related works.
+                </p>
+
+                <!-- CAROUSEL SLIDER VIEWPORT (Container) -->
+                <div class="carousel-container">
+
+                    <!-- Slider Controller Header (Index + Arrows) -->
+                    <div class="slider-controls-header">
+                        <span class="slide-counter-index" id="carousel-counter">01 / 04</span>
+
+                        <div class="slider-arrows">
+                            <!-- Left Arrow -->
+                            <button class="slider-arrow-btn" id="arrow-prev" aria-label="Previous Project">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                                    <polyline points="12 19 5 12 12 5"></polyline>
+                                </svg>
+                            </button>
+                            <!-- Right Arrow -->
+                            <button class="slider-arrow-btn" id="arrow-next" aria-label="Next Project">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Track Viewport -->
+                    <div class="carousel-viewport">
+                        <div class="carousel-track" id="carousel-track">
+
+                            <!-- SLIDE #1: Wasteless (Includes 5-PNG screen sub-slider!) -->
+                            <div class="project-slide-card">
+                                <div class="slide-media-slot">
+                                    <!-- Sleek CSS Thin Laptop Screen Mockup -->
+                                    <div class="laptop-mockup">
+                                        <div class="laptop-screen">
+                                            <!-- Mini Interactive Screen Slider Overlay -->
+                                            <div class="inner-slider-wrapper" data-project="wasteless">
+                                                <!-- Small dot buttons to indicate index -->
+                                                <div class="inner-slider-dots">
+                                                    <span class="inner-dot active"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                </div>
+
+                                                <!-- Chevron arrow triggers -->
+                                                <div class="inner-slider-controls">
+                                                    <button class="inner-arrow inner-prev"
+                                                        aria-label="Previous image">&lt;</button>
+                                                    <button class="inner-arrow inner-next"
+                                                        aria-label="Next image">&gt;</button>
+                                                </div>
+
+                                                <!-- Carousel track mapping the 5 PNG screenshots in assets/ folder -->
+                                                <div class="inner-slider-track">
+                                                    <img src="assets/wasteless1.png" alt="Wasteless Screen 1"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWasteless - Home Landing Screen%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/wasteless2.png" alt="Wasteless Screen 2"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWasteless - User Dashboard%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/wasteless3.png" alt="Wasteless Screen 3"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWasteless - Seller Marketplace%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/wasteless4.png" alt="Wasteless Screen 4"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWasteless - Administrator Panel%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/wasteless5.png" alt="Wasteless Screen 5"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWasteless - Waste Officer Workflow%3C/text%3E%3C/svg%3E';">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="laptop-base"></div>
+                                    </div>
+                                </div>
+                                <div class="slide-details-slot">
+                                    <div class="project-header-meta">
+                                        <span class="proj-type">Capstone Project</span>
+                                        <span class="proj-role-tag">Design Lead</span>
+                                    </div>
+                                    <h3 class="proj-title">Wasteless: Digital Marketplace for E-waste Management</h3>
+
+                                    <div class="proj-breakdowns">
+                                        <div class="breakdown-group">
+                                            <h5>Key Contributions</h5>
+                                            <p>Designed the end-to-end user experience (UX) and user interface (UI) for
+                                                a multi-sided marketplace platform, mapping complex user flows for
+                                                e-waste sellers, repair shops, platform administrators, and waste
+                                                management officers (WMOs). Built a scalable Figma design system from
+                                                scratch, creating a robust library of reusable components, auto-layout
+                                                structures, variants, and design tokens to ensure absolute visual
+                                                consistency. Transformed low-fidelity concepts into high-fidelity
+                                                wireframes and interactive, clickable prototypes in Figma to simulate
+                                                complex transactional features and user dashboards.</p>
+                                        </div>
+                                        <div class="breakdown-group">
+                                            <h5>Core Tools</h5>
+                                            <div class="proj-tech-tags">
+                                                <span>Figma</span>
+                                                <span>UX Mapping</span>
+                                                <span>Clickable Prototypes</span>
+                                                <span>Design Systems</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="https://youtu.be/wAP3Q0jl364" class="btn btn-outline slide-action-btn"
+                                        target="_blank" rel="noopener noreferrer">View System</a>
+                                </div>
+                            </div>
+
+                            <!-- SLIDE #2: Valsyntrix (Includes 5-PNG screen sub-slider!) -->
+                            <div class="project-slide-card">
+                                <div class="slide-media-slot">
+                                    <!-- Sleek CSS Thin Laptop Screen Mockup -->
+                                    <div class="laptop-mockup">
+                                        <div class="laptop-screen">
+                                            <!-- Mini Interactive Screen Slider Overlay -->
+                                            <div class="inner-slider-wrapper" data-project="valsyntrix">
+                                                <!-- Small dot buttons to indicate index -->
+                                                <div class="inner-slider-dots">
+                                                    <span class="inner-dot active"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                </div>
+
+                                                <!-- Chevron arrow triggers -->
+                                                <div class="inner-slider-controls">
+                                                    <button class="inner-arrow inner-prev"
+                                                        aria-label="Previous image">&lt;</button>
+                                                    <button class="inner-arrow inner-next"
+                                                        aria-label="Next image">&gt;</button>
+                                                </div>
+
+                                                <!-- Carousel track mapping the 5 PNG screenshots in assets/ folder -->
+                                                <div class="inner-slider-track">
+                                                    <img src="assets/valsyntrix1.png" alt="Valsyntrix Screen 1"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EValsyntrix - Portal Login Screen%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/valsyntrix2.png" alt="Valsyntrix Screen 2"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EValsyntrix - Customer Feedback Form%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/valsyntrix3.png" alt="Valsyntrix Screen 3"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EValsyntrix - Analytics Dashboard%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/valsyntrix4.png" alt="Valsyntrix Screen 4"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EValsyntrix - ARTA Compliance logs%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/valsyntrix5.png" alt="Valsyntrix Screen 5"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EValsyntrix - Responsive Viewports%3C/text%3E%3C/svg%3E';">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="laptop-base"></div>
+                                    </div>
+                                </div>
+                                <div class="slide-details-slot">
+                                    <div class="project-header-meta">
+                                        <span class="proj-type">Government IT Project</span>
+                                        <span class="proj-role-tag">Front-End Developer</span>
+                                    </div>
+                                    <h3 class="proj-title">Valsyntrix: Customer Experience Management & Analytics</h3>
+
+                                    <div class="proj-breakdowns">
+                                        <div class="breakdown-group">
+                                            <h5>Key Contributions</h5>
+                                            <p>Developed and implemented the responsive front-end user interface using
+                                                HTML, CSS, and JavaScript, translating complex analytics dashboards and
+                                                customer feedback forms into clean, production-ready code. Ensured
+                                                strict ARTA (Anti-Red Tape Authority) compliance across the
+                                                client-facing interface by optimizing web accessibility, form usability,
+                                                and page load performance for public use. Bridged the gap between design
+                                                and engineering by transforming visual mockups into semantic, structured
+                                                layouts with custom CSS styling and interactive JavaScript components.
+                                            </p>
+                                        </div>
+                                        <div class="breakdown-group">
+                                            <h5>Technologies Used</h5>
+                                            <div class="proj-tech-tags">
+                                                <span>HTML5</span>
+                                                <span>CSS3</span>
+                                                <span>JavaScript (ES6)</span>
+                                                <span>ARTA Compliance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-outline slide-action-btn">View System</a>
+                                </div>
+                            </div>
+
+                            <!-- SLIDE #3: West Town Tattoo (Includes 5-PNG screen sub-slider!) -->
+                            <div class="project-slide-card">
+                                <div class="slide-media-slot">
+                                    <!-- Sleek CSS Thin Laptop Screen Mockup -->
+                                    <div class="laptop-mockup">
+                                        <div class="laptop-screen">
+                                            <!-- Mini Interactive Screen Slider Overlay -->
+                                            <div class="inner-slider-wrapper" data-project="westtown">
+                                                <!-- Small dot buttons to indicate index -->
+                                                <div class="inner-slider-dots">
+                                                    <span class="inner-dot active"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                </div>
+
+                                                <!-- Chevron arrow triggers -->
+                                                <div class="inner-slider-controls">
+                                                    <button class="inner-arrow inner-prev"
+                                                        aria-label="Previous image">&lt;</button>
+                                                    <button class="inner-arrow inner-next"
+                                                        aria-label="Next image">&gt;</button>
+                                                </div>
+
+                                                <!-- Carousel track mapping the 5 PNG screenshots in assets/ folder -->
+                                                <div class="inner-slider-track">
+                                                    <img src="assets/westtown1.png" alt="West Town Tattoo Shop Home"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWest Town Tattoo - Landing Screen%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/westtown2.png" alt="West Town About Us Screen"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWest Town Tattoo - About Studio%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/westtown3.png" alt="West Town Tattoo Main Hero"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWest Town Tattoo - Main Hero%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/westtown4.png" alt="West Town About The Artists"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWest Town Tattoo - About The Artists%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/westtown5.png" alt="West Town Tattoo Contact Page"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EWest Town Tattoo - Contact Page%3C/text%3E%3C/svg%3E';">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="laptop-base"></div>
+                                    </div>
+                                </div>
+                                <div class="slide-details-slot">
+                                    <div class="project-header-meta">
+                                        <span class="proj-type">Client-Based Project</span>
+                                        <span class="proj-role-tag">Web Developer</span>
+                                    </div>
+                                    <h3 class="proj-title">West Town Tattoo Studio Portal</h3>
+
+                                    <div class="proj-breakdowns">
+                                        <div class="breakdown-group">
+                                            <h5>Key Contributions</h5>
+                                            <p>Developed a functional and visually appealing website for a real-world
+                                                tattoo and piercing studio to represent their brand and support their
+                                                services. Built a functional system that allows users to browse service
+                                                offerings, view artist portfolios, and access pricing information.
+                                                Implemented user-friendly features, including a digital booking process
+                                                and an information hub for client aftercare and FAQs. Collaborated with
+                                                a teammate on the development of UI implementation and backend logic for
+                                                seamless user experience. Managed the full project lifecycle from
+                                                initial concept and design to final deployment on a live domain
+                                                (westtowntattoo.store).</p>
+                                        </div>
+                                        <div class="breakdown-group">
+                                            <h5>Languages & Tools Used</h5>
+                                            <div class="proj-tech-tags">
+                                                <span>PHP</span>
+                                                <span>MySQL</span>
+                                                <span>HTML5</span>
+                                                <span>CSS3</span>
+                                                <span>JavaScript</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="https://youtu.be/Rh8QTIRy5fo" class="btn btn-outline slide-action-btn"
+                                        target="_blank" rel="noopener noreferrer">View System</a>
+                                </div>
+                            </div>
+
+                            <!-- SLIDE #4: Curse of Biringan (Includes 5-PNG screen sub-slider!) -->
+                            <div class="project-slide-card">
+                                <div class="slide-media-slot">
+                                    <!-- Sleek CSS Thin Landscape Phone Screen Mockup -->
+                                    <div class="phone-mockup-landscape">
+                                        <div class="phone-screen">
+                                            <!-- Mini Interactive Screen Slider Overlay -->
+                                            <div class="inner-slider-wrapper" data-project="biringan">
+                                                <!-- Small dot buttons to indicate index -->
+                                                <div class="inner-slider-dots">
+                                                    <span class="inner-dot active"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                    <span class="inner-dot"></span>
+                                                </div>
+
+                                                <!-- Chevron arrow triggers -->
+                                                <div class="inner-slider-controls">
+                                                    <button class="inner-arrow inner-prev"
+                                                        aria-label="Previous image">&lt;</button>
+                                                    <button class="inner-arrow inner-next"
+                                                        aria-label="Next image">&gt;</button>
+                                                </div>
+
+                                                <!-- Carousel track mapping the 5 PNG screenshots in assets/ folder -->
+                                                <div class="inner-slider-track">
+                                                    <img src="assets/biringan1.png" alt="Curse of Biringan Screen 1"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EBiringan - Game Main Menu%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/biringan2.png" alt="Curse of Biringan Screen 2"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EBiringan - Level Mapping 1%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/biringan3.png" alt="Curse of Biringan Screen 3"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EBiringan - Level Mapping 2%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/biringan4.png" alt="Curse of Biringan Screen 4"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EBiringan - Player Controls Interface%3C/text%3E%3C/svg%3E';">
+                                                    <img src="assets/biringan5.png" alt="Curse of Biringan Screen 5"
+                                                        class="inner-slide-img"
+                                                        onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 300\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EBiringan - QA Test Bug logs%3C/text%3E%3C/svg%3E';">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-details-slot">
+                                    <div class="project-header-meta">
+                                        <span class="proj-type">Game Development Project</span>
+                                        <span class="proj-role-tag">Generalist / QA</span>
+                                    </div>
+                                    <h3 class="proj-title">Curse of Biringan: Clash of Instinct for Survival</h3>
+
+                                    <div class="proj-breakdowns">
+                                        <div class="breakdown-group">
+                                            <h5>Key Contributions</h5>
+                                            <p>Served as an all-around generalist across the entire development
+                                                lifecycle, stepping in to program mechanics, design levels, and
+                                                integrate assets whenever and wherever the team needed support. Executed
+                                                comprehensive QA testing and troubleshooting, identifying gameplay bugs,
+                                                performance bottlenecks, and edge-case issues to guarantee a stable
+                                                player experience.</p>
+                                        </div>
+                                        <div class="breakdown-group">
+                                            <h5>Core Disciplines</h5>
+                                            <div class="proj-tech-tags">
+                                                <span>Game Programming</span>
+                                                <span>Level Mapping</span>
+                                                <span>QA Testing</span>
+                                                <span>Asset Integration</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="https://youtu.be/GrkuEMfnBTU?si=JjNA9-4yJeH3JPcC"
+                                        class="btn btn-outline slide-action-btn" target="_blank"
+                                        rel="noopener noreferrer">View System</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OTHER PROJECTS SECTION (Interactive Gallery with Lightbox Filter) -->
+        <section id="other-projects" class="other-projects-section">
+            <div class="container">
+                <h2 class="section-heading">Other Projects</h2>
+                <p class="gallery-intro-subtitle">
+                    Explore my creative designs, including digital illustrations, vector drawings, and 2D game
+                    animations. Click on any item to view in full resolution.
+                </p>
+
+                <!-- Filter Controls -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Works</button>
+                    <button class="filter-btn" data-filter="drawings">Digital Arts</button>
+                    <button class="filter-btn" data-filter="animations">2D Animations</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Item 1: Drawing 1 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia1.png" alt="Character Concept Art" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3ECharacter Concept Art%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Digital Drawing</span>
+                                <h4 class="gallery-item-title">Typography</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2: Drawing 2 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia2.png" alt="Landscape Illustration" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3ELandscape Illustration%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Digital Drawing</span>
+                                <h4 class="gallery-item-title">Pointillism</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3: Drawing 3 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia3.png" alt="Editorial Cover Design" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EEditorial Cover Design%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Editorial Layout & Font Pairing Exercise</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 4: Drawing 4 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia4.png" alt="Pop-Art Color Study" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EPop-Art Color Study%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Pop-Art Color Study</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 5: Drawing 5 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia5.png" alt="Isometric Room Drawing" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EIsometric Room Drawing%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Book Cover Mockup</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: Drawing 6 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia6.png" alt="Digital Art 6" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EDigital Art 6%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Digital Drawing</span>
+                                <h4 class="gallery-item-title">Geometric</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: Drawing 7 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia7.png" alt="Digital Art 7" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EDigital Art 7%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Book Cover</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 8: Drawing 8 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia8.png" alt="Digital Art 8" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EDigital Art 8%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Custom Banknote Design - Front</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 9: Drawing 9 -->
+                    <div class="gallery-item" data-category="drawings">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/multimedia9.png" alt="Digital Art 9" class="gallery-img"
+                                onerror="this.src='data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 500 350\' style=\'background-color:%230c182d\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'%23fcfbfa\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'%3EDigital Art 9%3C/text%3E%3C/svg%3E';">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">Photoshop Activity</span>
+                                <h4 class="gallery-item-title">Custom Banknote Design - Back</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item gallery-item--gif" data-category="animations">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/animation1.gif" alt="Melee Attack Combo Sequence" class="gallery-img">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">2D Pixel Art VFX (Visual Effects)</span>
+                                <h4 class="gallery-item-title">Lava Explosion</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 7: Animation 2 -->
+                    <div class="gallery-item gallery-item--gif" data-category="animations">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/animation2.gif" alt="Magic Spell Cast Sequence" class="gallery-img">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">2D Pixel Art VFX (Visual Effects)</span>
+                                <h4 class="gallery-item-title">Smoke Burst</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 8: Animation 3 -->
+                    <div class="gallery-item gallery-item--gif" data-category="animations">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/animation3.gif" alt="Ranged Attack Sequence" class="gallery-img">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">2D Pixel Art VFX (Visual Effects)</span>
+                                <h4 class="gallery-item-title">Water Splash</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 9: Animation 4 -->
+                    <div class="gallery-item gallery-item--gif" data-category="animations">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/animation4.gif" alt="Hit & Damage Sprite Sequence" class="gallery-img">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">2D Pixel Art VFX (Visual Effects)</span>
+                                <h4 class="gallery-item-title">Blood Spurt</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 10: Animation 5 -->
+                    <div class="gallery-item gallery-item--gif" data-category="animations">
+                        <div class="gallery-img-wrapper">
+                            <img src="assets/animation5.gif" alt="Ultimate Ability VFX Sequence" class="gallery-img">
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-cat">2D Pixel Art VFX (Visual Effects)</span>
+                                <h4 class="gallery-item-title">Weapon Spark</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX MODAL POPUP -->
+        <div id="gallery-lightbox" class="gallery-lightbox" aria-hidden="true" role="dialog">
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous work">&lsaquo;</button>
+            <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next work">&rsaquo;</button>
+            <div class="lightbox-content">
+                <img src="" alt="" class="lightbox-img" id="lightbox-img">
+                <div class="lightbox-caption" id="lightbox-caption">
+                    <span class="lightbox-cat" id="lightbox-cat">Category</span>
+                    <h3 class="lightbox-title" id="lightbox-title">Title</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION (New 4-Card Horizontal Equal-Width Columns) -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-heading">Contact</h2>
+                <p class="contact-prompt-intro">
+                    If you are seeking an OJT intern or have open junior development positions, please access my direct
+                    channels. I look forward to collaborating!
+                </p>
+
+                <div class="section-content">
+                    <!-- Horizontal row containing exactly four equal-width cards -->
+                    <div class="contact-cards-row">
+
+                        <!-- Card 1: Email -->
+                        <a href="mailto:csillajoy8bautista@gmail.com" class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" class="contact-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-card-info">
+                                <span class="contact-card-label">Email</span>
+                                <span class="contact-card-value">csillajoy8bautista@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <!-- Card 2: LinkedIn -->
+                        <a href="https://www.linkedin.com/in/csilla-joy-bautista-b5aa29411" class="contact-card"
+                            target="_blank" rel="noopener noreferrer">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" class="contact-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                                </svg>
+                            </div>
+                            <div class="contact-card-info">
+                                <span class="contact-card-label">LinkedIn</span>
+                                <span class="contact-card-value">in/csilla-joy-bautista-b5aa29411</span>
+                            </div>
+                        </a>
+
+                        <!-- Card 3: Phone -->
+                        <a href="tel:09100707078" class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" class="contact-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-card-info">
+                                <span class="contact-card-label">Phone</span>
+                                <span class="contact-card-value">09100707078</span>
+                            </div>
+                        </a>
+
+                        <!-- Card 4: Facebook -->
+                        <a href="https://www.facebook.com/ceejey.b" class="contact-card" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" class="contact-svg-icon" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 13.5h2.5l1-3H14V8.4c0-.8.2-1.1 1-1.1h1.5V4.5H14c-2.4 0-4 1.2-4 3.5v2.5H8v3h2V20h4v-6.5z" />
+                                </svg>
+                            </div>
+                            <div class="contact-card-info">
+                                <span class="contact-card-label">Facebook</span>
+                                <span class="contact-card-value">Csilla Joy Bautista</span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container text-center">
+            <p class="copyright-text">CSILLA JOY BAUTISTA &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- Link to local JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
