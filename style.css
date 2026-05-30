@@ -899,10 +899,18 @@ section {
     border-radius: 2px;
 }
 
+.slide-action-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
 .slide-action-btn {
     align-self: flex-start;
     padding: 0.75rem 1.75rem;
     font-size: 0.7rem;
+    white-space: nowrap;
 }
 
 /* ==========================================================================
@@ -1037,6 +1045,10 @@ section {
     .slide-details-slot {
         max-width: 600px;
         margin: 0 auto;
+    }
+    
+    .slide-action-group {
+        justify-content: center;
     }
     
     .slide-action-btn {
